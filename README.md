@@ -1,18 +1,8 @@
-# Google Form Auto-Filler
+# google-form-filler-bot
 
-This script automatically fills and submits the Google Form at:
-https://docs.google.com/forms/d/e/1FAIpQLScxrgkZSczQo_I7-tYIXjarPnG2vtSCReDhlqd8HlHzXePEPA/viewform
+An automated Python script designed to programmatically submit multi-field responses to Google Forms via direct HTTP POST payloads.
 
-It targets the Multiple Choice field **Name** using its entry ID: `entry.129147722`.
-
-## How to Run
-
-1. **Install requirements**:
-   ```bash
-   pip install requests
-   ```
-
-2. **Run the script**:
-   ```bash
-   python3 google_form_filler.py --value "Option 1"
-   ```
+## Features
+- **Direct HTTP Submissions**: Submits form responses in milliseconds without requiring bulky browser automation engines.
+- **Dynamic Field Mapping**: Supports short text, multiple choice, checkboxes, and scale ratings.
+- **Batch Iteration**: Capable of sending randomized or structured survey entries for stress testing form listeners.\n
